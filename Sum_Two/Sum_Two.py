@@ -4,7 +4,7 @@ target = 9
 
 def Sum_Two(nums,target):
     numDict={}
-    n=len(nums)
+    n=len(nums) 
     for i in range(0,n):
         sub=target-nums[i]
         if(sub in numDict):
